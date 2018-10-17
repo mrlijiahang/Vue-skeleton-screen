@@ -7,7 +7,7 @@ vue init webpack-simple vue-skeleton-screen
 ├── src
 │   ├── App.vue
 │   ├── assets
-│   └── main.js
+│   └── main.jsnn
 ├── index.html
 └── webpack.conf.js
 npm 大法好 一顿install就行 不行就cnpm  再不行就yarn 

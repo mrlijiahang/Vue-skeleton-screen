@@ -3,6 +3,8 @@ const fs = require('fs')
 const htmlMinifier = require('html-minifier')
 const { resolve } = require('path')
 
+
+//创建render实例
 const createBundleRenderer = require('vue-server-renderer').createBundleRenderer
 
 const renderer = createBundleRenderer(resolve(__dirname, './dist/skeleton.json'), {
